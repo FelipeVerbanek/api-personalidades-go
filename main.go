@@ -8,8 +8,8 @@ import (
 
 func main() {
 	models.Personalidades = []models.Personalidade{
-		{Nome: "Jose", Historia: "Tatata"},
-		{Nome: "Joao", Historia: "Tatata"},
+		{Id: 1, Nome: "Jose", Historia: "Tatata"},
+		{Id: 2, Nome: "Joao", Historia: "Tatata"},
 	}
 
 	fmt.Println("Iniciando servidor!")

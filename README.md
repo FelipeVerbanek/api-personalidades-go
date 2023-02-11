@@ -19,11 +19,15 @@ What things you need to install the software and how to install them.
 
 ```
 go 1.20
+docker compose
 ```
 
 ## Usage <a name = "usage"></a>
 
 Add notes about how to use the system.
+```
+docker-compose up
+```
 ```
 go run main.go
 ```
